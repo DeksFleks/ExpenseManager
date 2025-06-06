@@ -24,4 +24,9 @@ public class Users {
     public String getPwd() {
         return pwd;
     }
+
+    @Override
+    public String toString() {
+        return "id - " + getId() + " | login - " + getLogin();
+    }
 }
